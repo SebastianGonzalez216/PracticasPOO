@@ -16,7 +16,7 @@ public class ClasePrincipal {
         Scanner entrada = new Scanner(System.in);
         CuentaBancaria cuenta = new CuentaBancaria(saldo);
 
-        //Ciclo while para volver al menu principal, mientras opcions ea diferente de cinco
+        //Ciclo while para volver al menu principal, mientras opcion sea diferente de cinco
         while (opc != 5) {
 
             System.out.println("\n=====BIENVENIDO A SU CUENTA======\n\n---Que operacion desea realizar?---");
