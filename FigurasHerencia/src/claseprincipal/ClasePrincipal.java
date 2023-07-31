@@ -26,14 +26,14 @@ public class ClasePrincipal {
                 circulo.imprimirResultado();
                 break;
             case 2:
-                System.out.println("*Ha seleccionado area del Triangulo");
+                System.out.println("--Ha seleccionado area del Triangulo--");
                 Triangulo triangulo = new Triangulo();
                 triangulo.solicitarDatosFiguraRegular();
                 triangulo.calcularAreaTriangulo();
                 triangulo.imprimirResultado();
                 break;
             case 3:
-                System.out.println("Ha seleccionado area del Rectangulo");
+                System.out.println("--Ha seleccionado area del Rectangulo--");
                 Rectangulo rectangulo = new Rectangulo();
                 rectangulo.solicitarDatosFiguraRegular();
                 rectangulo.calcularAreaRectangulo();
